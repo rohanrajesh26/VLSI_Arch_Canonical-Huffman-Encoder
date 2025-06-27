@@ -1,0 +1,133 @@
+$date
+	Thu Apr 17 09:55:14 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module fsm_2_tb $end
+$var wire 1 ! done $end
+$var wire 96 " HUFFMAN_CODE_packed [95:0] $end
+$var parameter 32 # MAX_BITS $end
+$var parameter 32 $ SYMBOLS $end
+$var reg 128 % BITS_packed [127:0] $end
+$var reg 48 & HUFFMANVAL_packed [47:0] $end
+$var reg 1 ' clk $end
+$var reg 1 ( rst $end
+$var reg 1 ) start $end
+$var integer 32 * i [31:0] $end
+$scope module dut $end
+$var wire 128 + BITS_packed [127:0] $end
+$var wire 48 , HUFFMANVAL_packed [47:0] $end
+$var wire 1 ' clk $end
+$var wire 1 ( rst $end
+$var wire 1 ) start $end
+$var wire 96 - HUFFMAN_CODE_packed [95:0] $end
+$var parameter 32 . MAX_BITS $end
+$var parameter 32 / SYMBOLS $end
+$var reg 8 0 MAX_CODE_LENGTH [7:0] $end
+$var reg 16 1 code [15:0] $end
+$var reg 1 ! done $end
+$var integer 32 2 excess [31:0] $end
+$var integer 32 3 i [31:0] $end
+$var integer 32 4 j [31:0] $end
+$var integer 32 5 k [31:0] $end
+$var integer 32 6 move_count [31:0] $end
+$var integer 32 7 total [31:0] $end
+$scope begin pack_codes[0] $end
+$var parameter 2 8 idx $end
+$upscope $end
+$scope begin pack_codes[1] $end
+$var parameter 2 9 idx $end
+$upscope $end
+$scope begin pack_codes[2] $end
+$var parameter 3 : idx $end
+$upscope $end
+$scope begin pack_codes[3] $end
+$var parameter 3 ; idx $end
+$upscope $end
+$scope begin pack_codes[4] $end
+$var parameter 4 < idx $end
+$upscope $end
+$scope begin pack_codes[5] $end
+$var parameter 4 = idx $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b101 =
+b100 <
+b11 ;
+b10 :
+b1 9
+b0 8
+b110 /
+b10000 .
+b110 $
+b10000 #
+$end
+#0
+$dumpvars
+b0 7
+bx 6
+bx 5
+bx 4
+b110 3
+bx 2
+bx 1
+b100 0
+b0 -
+b0 ,
+b0 +
+bx *
+0)
+1(
+0'
+b0 &
+b0 %
+b0 "
+0!
+$end
+#5000
+b110 3
+1'
+#10000
+0'
+#15000
+b110 3
+b10001100100010101000100010000110100001001000001 &
+b10001100100010101000100010000110100001001000001 ,
+b1010000000000000000000000000000000000 %
+b1010000000000000000000000000000000000 +
+0(
+1'
+#20000
+0'
+#25000
+1!
+b10100000000000001000000000000000011000000000000001000000000000000010000000000000000 "
+b10100000000000001000000000000000011000000000000001000000000000000010000000000000000 -
+b0 4
+b11000 5
+b0 1
+b100 6
+b0 2
+b10000 7
+b10001 3
+1)
+1'
+#30000
+0'
+#35000
+0!
+0)
+1'
+#40000
+0'
+#45000
+b110 *
+1'
